@@ -8,52 +8,59 @@
     <title>ポートフォリオ</title>
 </head>
 <body>
-    <nav>
-        <a href="#about">ABOUT</a>
-        <a href="#works">WORK</a>
-        <a href="#contact">CONTACT</a>
-
-    </nav>
-
-    <div class="about">
-        <h1>ABOUT</h1>
-        <div class="photo">
-            <img scr="img/"/> <!--mada-->
+    
+    <div class="tabs">
+        <input type="radio" name="tab_name" id="tab1" checked>
+        <label class="tab_class" for="tab1"> ABOUT</label>
+        <div class="content_class">
+          <p>    <div class="about">
+            <div class="photo">
+                <img scr="img/"/> <!--mada-->
+            </div>
+            <div class="description">
+                <p>ここに自己紹介
+      
+                </p>
+            </div>
+            <div class="skills">
+                <ul>
+                    <li>資格</li>
+                    <li>資格</li>
+                </ul>
+            </div>
+    
+        </div></p>
         </div>
-        <div class="description">
-            <p>ここに自己紹介
-  
-            </p>
-        </div>
-        <div class="skills">
-            <ul>
-                <li>資格</li>
-                <li>資格</li>
-            </ul>
+
+        <input type="radio" name="tab_name" id="tab2" >
+        <label class="tab_class" for="tab2">WORKS</label>
+        <div class="content_class">
+          <p>    <div class="works">
+            <div class="work">
+                <img scr="img/"/><!--ここに作品-->
+                <h4>題名</h4>
+                <p>作品説明</p>
+                <p>使用したツール</p>
+            </div>
+            <div class="work">
+                <img scr="img/"/><!--ここに作品-->
+                <h4>題名</h4>
+                <p>作品説明</p>
+                <p>使用したツール</p>
+            </div>
+            <!--追加-->
+        </div></p>
         </div>
 
-    </div>
-
-    <div class="works">
-        <div class="work">
-            <img scr="img/"/><!--ここに作品-->
-            <h4>題名</h4>
-            <p>作品説明</p>
-            <p>使用したツール</p>
+        <input type="radio" name="tab_name" id="tab3" >
+        <label class="tab_class" for="tab3">CONTACTS</label>
+        <div class="content_class">
+          <p>    <div class="contact">
+            <a href="mailto:a1hor11014@gmail.com">Mail</a>
+            <a href="https://twitter.com/n_sokuno_waraji/" target="_blank" rel="noopener noreferrer">Twitter</a>
+        </div></p>
         </div>
-        <div class="work">
-            <img scr="img/"/><!--ここに作品-->
-            <h4>題名</h4>
-            <p>作品説明</p>
-            <p>使用したツール</p>
-        </div>
-        <!--追加-->
-    </div>
+      </div>
 
-    <div class="contact">
-        <h1>CONTACTS</h1>
-        <a href="mailto:a1hor11014@gmail.com">Mail</a>
-        <a href="https://twitter.com/n_sokuno_waraji/" target="_blank" rel="noopener noreferrer">Twitter</a>
-    </div>
 </body>
 </html>
